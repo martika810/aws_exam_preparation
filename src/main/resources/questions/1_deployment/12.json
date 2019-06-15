@@ -1,0 +1,13 @@
+{
+	"topic":"beanstalk",
+	"question":"Which of the following are valid sections in an AWS Elastic beanstalk components ?(Choose 3 answers)",
+	"answers":{
+		"A":"Environment Configuration",
+		"B":"Application Version",
+		"C":"Source Code Version",
+		"D":"Load Balancer",
+		"E":"Application"
+	},
+	"correct_answer":["A","B","E"],
+	"explanation":""
+}

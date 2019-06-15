@@ -1,0 +1,13 @@
+{
+	"topic":"cloudformation",
+	"question":"Which of the following are valid sections in an AWS Cloudformation template?(Choose 3 answers)",
+	"answers":{
+		"A":"Parameter",
+		"B":"Services",
+		"C":"Outputs",
+		"D":"Declarations",
+		"E":"Resources"
+	},
+	"correct_answer":["A","C","E"],
+	"explanation":""
+}

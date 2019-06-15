@@ -1,0 +1,12 @@
+{
+	"topic":"cloudformation",
+	"question":"Which of the below functions is used in Cloudformation to retrieve an object from a set of objects?",
+	"answers":{
+		"A":"Fn::GetAttr",
+		"B":"Fn::Combine",
+		"C":"Fn::Join",
+		"D":"Fn::Select"
+	},
+	"correctAnswers":["D"],
+	"explanation":"See intrinsic function aws documentation"
+}

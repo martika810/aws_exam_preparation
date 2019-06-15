@@ -1,0 +1,13 @@
+{
+	"topic":"beanstalk",
+	"question":"Each Amazon EC2 instance that runs your application uses a software component called the host manager, What are the responsibilities of the host manager(Choose 3 answers)?",
+	"answers":{
+		"A":"Deploying the application",
+		"B":"Provisioning application infrastructure",
+		"C":"Monitoring the application server",
+		"D":"Scaling the application",
+		"E":"Aggregating events and metrics"
+	},
+	"correct_answer":["A","C","E"],
+	"explanation":""
+}

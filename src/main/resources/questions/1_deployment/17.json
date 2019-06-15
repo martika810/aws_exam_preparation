@@ -1,0 +1,12 @@
+{
+	"topic":"beanstalk",
+	"question":"Which deployment policy will lead to downtime?",
+	"answers":{
+		"A":"All at once",
+		"B":"Rolling",
+		"C":"Immutable",
+		"D":"Blue/Green"
+	},
+	"correct_answer":["A"],
+	"explanation":""
+}

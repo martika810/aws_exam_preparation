@@ -1,0 +1,10 @@
+{
+"topic":"lambda",
+"question":"When a lambda function is triggered from Amazon s3, the thread execution is blocked until the client receives a response from the Lambda function",
+"answers":{
+"A":"True",
+"B":"False"
+},
+"correct_answer":["B"],
+"explanation":""
+}

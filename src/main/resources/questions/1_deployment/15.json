@@ -1,0 +1,13 @@
+{
+	"topic":"beanstalk",
+	"question":"Which of the following elastic beanstalk components refers to the specific source code version for the web application?",
+	"answers":{
+		"A":"Application",
+		"B":"Environment configuration",
+		"C":"Application version",
+		"D":"Environment",
+		"E":"Configuration template"
+	},
+	"correct_answer":["C"],
+	"explanation":""
+}

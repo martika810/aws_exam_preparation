@@ -1,0 +1,12 @@
+{
+	"topic":"cloudformation",
+	"question":"Which of the below functions is used in Cloudformation to retrieve the value of an specified parameter?",
+	"answers":{
+		"A":"Fn::Select",
+		"B":"Ref",
+		"C":"Fn::ImportValue",
+		"D":"Fn::Split"
+	},
+	"correct_answer":["B"],
+	"explanation":"See intrinsic function aws documentation"
+}

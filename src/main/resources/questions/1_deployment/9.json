@@ -1,0 +1,12 @@
+{
+	"topic":"cloudformation",
+	"question":"Which section is used to match a key to a corresponding set of named values?",
+	"answers":{
+		"A":"Resources",
+		"B":"Parameter",
+		"C":"Mappings",
+		"D":"Metadata"
+	},
+	"correct_answer":["C"],
+	"explanation":""
+}

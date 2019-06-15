@@ -1,0 +1,12 @@
+{
+"topic":"lambda",
+"question":"What Lambda setting allow us to organize Lambda functions into groups for cost reporting? ",
+"answers":{
+"A": "Environment Variables",
+"B": "Tags",
+"C": "Runtime",
+"D": "Code"
+},
+"correct_answer":["B"],
+"explanation":"See AWS documentation: https://docs.aws.amazon.com/lambda/latest/dg/env_variables.html"
+}

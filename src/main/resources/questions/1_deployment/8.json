@@ -1,0 +1,13 @@
+{
+	"topic":"developer tools",
+	"question":"Which of the following AWS Services allows you to automate your build, test and release process every time there is a code change?",
+	"answers":{
+		"A":"CodeCommit",
+		"B":"Cloudformation",
+		"C":"CodeBuild",
+		"D":"XRay",
+		"E":"CodePipeline"
+	},
+	"correct_answer":["E"],
+	"explanation":""
+}

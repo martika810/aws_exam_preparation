@@ -1,0 +1,12 @@
+{
+	"topic":"beanstalk",
+	"question":"Which of the following elastic beanstalk component is defined as a logical collection of components?",
+	"answers":{
+		"A":"Environment",
+		"B":"Application",
+		"C":"Configuration",
+		"D":"Environment configuration"
+	},
+	"correct_answer":["B"],
+	"explanation":""
+}

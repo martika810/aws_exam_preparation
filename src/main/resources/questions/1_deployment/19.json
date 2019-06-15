@@ -1,0 +1,13 @@
+{
+"topic":"lambda",
+"question":"Which of the following are core pattern concepts to use when writing code for a Lambda function regardless the programming language?(Choose 3 answers) ",
+"answers":{
+"A": "Handler",
+"B": "Event",
+"C": "Logging",
+"D": "Context",
+"E": "Invocation Type"
+},
+"correct_answer":["A","C","E"],
+"explanation":"See AWS documentation: https://docs.aws.amazon.com/lambda/latest/dg/programming-model-v2.html"
+}

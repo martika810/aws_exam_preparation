@@ -1,0 +1,12 @@
+{
+"topic":"lambda",
+"question":"What Lambda setting allow us to pass dynamic values to the lambda function at runtime which will be accesible within the Lambda function? ",
+"answers":{
+"A": "Environment Variables",
+"B": "Tags",
+"C": "Runtime",
+"D": "Code"
+},
+"correct_answers":["A"],
+"explanation":"See AWS documentation: https://docs.aws.amazon.com/lambda/latest/dg/env_variables.html"
+}

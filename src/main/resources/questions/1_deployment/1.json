@@ -1,0 +1,10 @@
+{
+	"topic":"cloudformation",
+	"question":"When a failure occurs during stack creation in Clouformation, does a rollback occur?",
+	"answers":{
+		"A":"True",
+		"B":"False"
+	},
+	"correctAnswers":["A"],
+	"explanation": "By default the automatic rollback on error feature is enabled"
+}

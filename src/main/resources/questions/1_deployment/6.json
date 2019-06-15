@@ -1,0 +1,12 @@
+{
+	"topic":"cloudformation",
+	"question":"Which of the below functions is used in Cloudformation to refer to some attribute of other resource for creating a new resource?",
+	"answers":{
+		"A":"Fn::Select", 
+		"B":"Ref",
+		"C":"Fn::ImportValue",
+		"D":"Fn::GetAtt"
+	},
+	"correct_answer":["B"],
+	"explanation":"See intrinsic function aws documentation"
+}

@@ -1,0 +1,11 @@
+{
+	"topic":"cloudformation",
+	"question":"What checks does AWS Cloudformation perform at the time of creating a stack from a template?",
+	"answers":{
+		"A":"Only syntax error in JSON/YAML",
+		"B":"Check IAM user has sufficient priviliges to complete template execution",
+		"C":"Check whether any resource creation may violate AWS soft limits for the resources in the account"
+	},
+	"correctAnswers":["A"],
+	"explanation":""
+}

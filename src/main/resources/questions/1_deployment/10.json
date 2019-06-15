@@ -1,0 +1,12 @@
+{
+	"topic":"cloudformation",
+	"question":"Which section is used to define different template behaviour based on a condition satisfied?",
+	"answers":{
+		"A":"Resources",
+		"B":"Parameter",
+		"C":"Mappings",
+		"D":"Conditions"
+	},
+	"correct_answer":["D"],
+	"explanation":""
+}

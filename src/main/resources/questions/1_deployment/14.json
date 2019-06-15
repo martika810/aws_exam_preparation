@@ -1,0 +1,13 @@
+{
+	"topic":"beanstalk",
+	"question":"Which of the following elastic beanstalk components will define how the environment will behave?",
+	"answers":{
+		"A":"Application",
+		"B":"Environment configuration",
+		"C":"Application version",
+		"D":"Environment",
+		"E":"Configuration template"
+	},
+	"correct_answer":["B"],
+	"explanation":""
+}

@@ -1,0 +1,13 @@
+{
+	"topic":"cloudformation",
+	"question":
+		"With the help of the deletion policy you can perform partial stack deletion, Which of these is NOT a permitted DeletionPolicy attribute?",
+	"answers":{
+		"A":"Delete",
+		"B":"Retain",
+		"C":"Rollback",
+		"D":"Snapshot"
+	},
+	"correct_answer":["C"],
+	"explanation":""
+}
