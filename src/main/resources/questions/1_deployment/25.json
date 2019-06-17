@@ -1,0 +1,12 @@
+{
+"topic":"cloudformation",
+"question":"Which of the following AWS services supports infrastructure as a code?",
+"answers":{
+"A": "CloudFront",
+"B": "CloudFormation",
+"C": "CodeCommit",
+"D": "None of the above"
+},
+"correctAnswers":["B"],
+"explanation":""
+}

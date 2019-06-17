@@ -1,0 +1,12 @@
+{
+"topic":"cloudformation",
+"question":"What is the purpose of the cfn-init helper script in CloudFormation?",
+"answers":{
+"A": "Installs and configures applications and packages in EC2",
+"B": "Sends a signal to cloudformation when the EC2 instance is successfully created",
+"C": "Detects changes in resource metadata and runs user-specified actions when a change is detected",
+"D": "All of the above"
+},
+"correctAnswers":["A"],
+"explanation":""
+}

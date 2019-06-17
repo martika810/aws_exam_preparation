@@ -1,0 +1,13 @@
+{
+"topic":"lambda",
+"question":"Which of the following programming languages is NOT currently supported by Lambda?",
+"answers":{
+"A": "Node.js",
+"B": "Java",
+"C": "Python",
+"D": "Scala"
+
+},
+"correctAnswers":["D"],
+"explanation":""
+}

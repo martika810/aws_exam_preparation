@@ -7,6 +7,6 @@
 "C": "Runtime",
 "D": "Code"
 },
-"correct_answer":["B"],
+"correctAnswers":["B"],
 "explanation":"See AWS documentation: https://docs.aws.amazon.com/lambda/latest/dg/env_variables.html"
 }

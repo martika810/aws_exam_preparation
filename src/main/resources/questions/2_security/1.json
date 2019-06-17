@@ -1,0 +1,14 @@
+{
+  "topic":"security",
+  "question":"In AWS, which security aspects are the customer's responsability? (Choose 4 answers)",
+  "answers":{
+    "A":"Life-cycle management of IAM credentials",
+    "B":"Decomminssioning storage devices",
+    "C":"Security Group and ACL(Access Control List) settings",
+    "D":"Encryption of EBS(Elastic Block Store)",
+    "E":"Controlling physical access to compute resources",
+    "F":"Patch management of EC2 instances"
+  },
+  "correctAnswers":["A","C","D","F"],
+  "explanation": ""
+}

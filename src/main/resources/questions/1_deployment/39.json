@@ -1,0 +1,14 @@
+{
+"topic":"lambda",
+"question":"What the maximum number of file descriptors for lambda function?",
+"answers":{
+"A": "512",
+"B": "128",
+"C": "1024",
+"D": "50",
+"E": "3008"
+
+},
+"correctAnswers":["C"],
+"explanation":"See docs: https://docs.aws.amazon.com/lambda/latest/dg/limits.html"
+}

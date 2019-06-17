@@ -1,0 +1,13 @@
+{
+"topic":"cloudformation",
+"question":"Which of the following helper scripts cannot be used while bootstrapping in instance during stack creating in a CFT?",
+"answers":{
+"A": "cfn-get-metadata",
+"B": "cfn-put-metadata",
+"C": "cfn-init",
+"D": "cfn-hup"
+
+},
+"correctAnswers":["B"],
+"explanation":""
+}

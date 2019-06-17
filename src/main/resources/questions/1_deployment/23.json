@@ -1,0 +1,12 @@
+{
+"topic":"lambda",
+"question":"Monthly billing for Lambda is based on what?",
+"answers":{
+"A": "Number of uploaded functions in the AWS account per region",
+"B": "Number of uploaded function in the AWS account per region plus the execution time in minutes",
+"C": "Execution request and the time is rounded to the nearest 100 ms",
+"D": "Execution request and time is rounded to the nearest 1 second"
+},
+"correctAnswers":["C"],
+"explanation":""
+}

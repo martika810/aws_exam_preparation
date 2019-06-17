@@ -1,0 +1,13 @@
+{
+"topic":"lambda",
+"question":"Which of the following AWS services is not supported as an AWS Lambda event source?",
+"answers":{
+"A": "Amazon Alexa",
+"B": "AWS Config",
+"C": "Amazon Lex",
+"D": "EMR"
+
+},
+"correctAnswers":["D"],
+"explanation":""
+}

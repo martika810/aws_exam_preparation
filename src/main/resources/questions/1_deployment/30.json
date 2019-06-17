@@ -1,0 +1,13 @@
+{
+"topic":"lambda",
+"question":"What is the maximum execution time for a Lambda function to run that can be assigned?",
+"answers":{
+"A": "1 minute",
+"B": "3 minutes",
+"C": "5 minutes",
+"D": "Depends on the complexity of the function"
+
+},
+"correctAnswers":["C"],
+"explanation":""
+}

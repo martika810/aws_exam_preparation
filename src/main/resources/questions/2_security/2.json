@@ -1,0 +1,12 @@
+{
+  "topic":"security",
+  "question":"You created a message queuing application with Amazon SQS and enabled server-side encryption to encrypt \n the message body while exchanging sensitive data. Which service will allow you to manage and rotate your encryption keys centrally?",
+  "answers":{
+    "A":"Amazon SQS does not support SSE",
+    "B":"AWS KMS Customer Master Key",
+    "C":"AWS IAM",
+    "D":"AWS KMS Default Master Key"
+  },
+  "correctAnswers":["B"],
+  "explanation": ""
+}

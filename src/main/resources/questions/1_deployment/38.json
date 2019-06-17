@@ -1,0 +1,14 @@
+{
+"topic":"lambda",
+"question":"What the maximum number of processors and threads for lambda function?",
+"answers":{
+"A": "512",
+"B": "1024",
+"C": "128",
+"D": "50",
+"E": "3008"
+
+},
+"correctAnswers":["B"],
+"explanation":"See docs: https://docs.aws.amazon.com/lambda/latest/dg/limits.html"
+}

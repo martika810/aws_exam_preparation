@@ -1,0 +1,12 @@
+{
+"topic":"cloudformation",
+"question":"What happens when CloudFormation stack creation fails?",
+"answers":{
+"A": "It rolls back the stack and deletes any resources that have benn created",
+"B": "Skips that resource creation and continues",
+"C": "Dependes on the region in which the stack is being created",
+"D": "None of the above"
+},
+"correctAnswers":["A"],
+"explanation":""
+}

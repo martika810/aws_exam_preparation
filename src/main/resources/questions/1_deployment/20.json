@@ -8,6 +8,6 @@
 "D": "Event Source",
 "E": "Monitoring"
 },
-"correct_answer":["B","C"],
+"correctAnswers":["B","C"],
 "explanation":"See AWS documentation: https://docs.aws.amazon.com/lambda/latest/dg/programming-model-v2.html"
 }

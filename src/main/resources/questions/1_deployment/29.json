@@ -1,0 +1,15 @@
+{
+"topic":"elastic beanstalk",
+"question":"Which of the following platforms does not have in-built support on AWS Elastic beanstalk?",
+"answers":{
+"A": "Java with Tomcat",
+"B": "IIS",
+"C": "Java SE",
+"D": "Go",
+"E": "C/C++",
+"F": "Nginix"
+
+},
+"correctAnswers":["E"],
+"explanation":""
+}

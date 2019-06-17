@@ -1,0 +1,14 @@
+{
+"topic":"lambda",
+"question":"Which of the following services empowers ElasticBeanstalk(Select three)?",
+"answers":{
+"A": "ELB",
+"B": "AutoScaling Group",
+"C": "EC2",
+"D": "EFS",
+"E":"Cognito"
+
+},
+"correctAnswers":["A","B","C"],
+"explanation":""
+}

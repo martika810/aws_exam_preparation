@@ -1,0 +1,12 @@
+{
+  "topic":"security",
+  "question":"Which of the following request headers, when specified in an API call, will cause an object to be encrypted by SSE?",
+  "answers":{
+    "A":"server-side-encryption",
+    "B":"AES256",
+    "C":"amz-server-side-encryption",
+    "D":"x-amz-server-side-encryption"
+  },
+  "correctAnswers":["D"],
+  "explanation": ""
+}

@@ -1,0 +1,12 @@
+{
+"topic":"lambda",
+"question":"Which is a compulsory section in the cloudformation template?",
+"answers":{
+"A": "Outputs and Resources",
+"B": "Resources",
+"C": "Parameters and Outputs",
+"D": "None of the above"
+},
+"correctAnswers":["B"],
+"explanation":""
+}

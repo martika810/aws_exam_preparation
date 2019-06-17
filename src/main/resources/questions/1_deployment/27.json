@@ -1,0 +1,12 @@
+{
+"topic":"cloudformation",
+"question":"Which of the following Coudformation template sections match a key to a corresponding value?",
+"answers":{
+"A": "Tranform",
+"B": "Mappings",
+"C": "Metadata",
+"D": "Conditions"
+},
+"correctAnswers":["B"],
+"explanation":""
+}

@@ -8,6 +8,6 @@
 		"D":"Scaling the application",
 		"E":"Aggregating events and metrics"
 	},
-	"correct_answer":["A","C","E"],
+	"correctAnswers":["A","C","E"],
 	"explanation":""
 }

@@ -7,6 +7,6 @@
 		"C":"Fn::ImportValue",
 		"D":"Fn::Split"
 	},
-	"correct_answer":["B"],
+	"correctAnswers":["B"],
 	"explanation":"See intrinsic function aws documentation"
 }

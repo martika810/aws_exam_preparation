@@ -13,10 +13,10 @@ public class QuestionTest {
 
     @Test
     public void deserialize() throws IOException {
-        String questionInText =IOUtils.toString(this.getClass().getResourceAsStream("/questions/1_deployment/1.json"),"UTF-8");
+        String questionInText =IOUtils.toString(this.getClass().getResourceAsStream("/questions/1_deployment/29.json"),"UTF-8");
         Question questionInObject = objectMapper.readValue(questionInText,Question.class);
-        Assert.assertEquals("cloudformation",questionInObject.getTopic());
-        Assert.assertEquals("A",questionInObject.getCorrectAnswer().get(0));
+        Assert.assertEquals("elastic beanstalk",questionInObject.getTopic());
+        Assert.assertEquals("E",questionInObject.getCorrectAnswer().get(0));
 
     }
 }

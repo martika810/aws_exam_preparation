@@ -1,0 +1,11 @@
+{
+  "topic":"vpc",
+  "question":"Which of the following statements are false regarding private ips?",
+  "answers":{
+    "A":"Not reachable over the internet",
+    "B":"They can be used for communication between the instances in your VPC",
+    "C":"When launching an Ec2 only an IPv4 is assigned to the instance"
+  },
+  "correctAnswers":["C"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-ip-addressing.html"
+}

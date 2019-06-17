@@ -1,0 +1,13 @@
+{
+"topic":"cloudformation",
+"question":"What is the purpose of the cfn-init helper script in Cloudformation?",
+"answers":{
+"A": "Download and install the packages and files described in the template",
+"B": "Retrieve metadata attached to the template",
+"C": "Initialize bootstrapping command",
+"D": "Signal that stack is ready"
+
+},
+"correctAnswers":["A"],
+"explanation":""
+}

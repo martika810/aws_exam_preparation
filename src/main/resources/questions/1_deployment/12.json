@@ -8,6 +8,6 @@
 		"D":"Load Balancer",
 		"E":"Application"
 	},
-	"correct_answer":["A","B","E"],
+	"correctAnswers":["A","B","E"],
 	"explanation":""
 }

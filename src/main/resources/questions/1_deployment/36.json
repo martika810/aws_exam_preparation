@@ -1,0 +1,12 @@
+{
+"topic":"lambda",
+"question":"Does a Lambda function execution role need permissions to create, describe and delete ENIs?",
+"answers":{
+"A": "Only when configure in a VPC",
+"B": "Yes, Always",
+"C": "No"
+
+},
+"correctAnswers":["A"],
+"explanation":""
+}

@@ -1,0 +1,11 @@
+{
+  "topic":"vpc",
+  "question":"Which of the following statements is false about a VPC?",
+  "answers":{
+    "A":"It is limited to one region and one AZ",
+    "B":"It is limited to one AZs and can span multiple regions",
+    "C":"It can span multiple AZs ans is limited to one region"
+  },
+  "correctAnswers":["A","B"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-ip-addressing.html"
+}

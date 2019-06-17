@@ -8,6 +8,6 @@
 		"C":"Rollback",
 		"D":"Snapshot"
 	},
-	"correct_answer":["C"],
+	"correctAnswers":["C"],
 	"explanation":""
 }

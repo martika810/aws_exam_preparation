@@ -1,0 +1,12 @@
+{
+  "topic":"vpc",
+  "question":"A subnet within a VPC can span across how many AZ zones?",
+  "answers":{
+    "A":"2",
+    "B":"1",
+    "C":"4",
+    "D":"6"
+  },
+  "correctAnswers":["B"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html#vpc-subnet-basics"
+}

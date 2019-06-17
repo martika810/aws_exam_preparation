@@ -1,0 +1,14 @@
+{
+"topic":"lambda",
+"question":"What the maximum size for the /tmp folder for lambda function?",
+"answers":{
+"A": "512 M",
+"B": "1024",
+"C": "128 M",
+"D": "50 M",
+"E": "3008 M"
+
+},
+"correctAnswers":["A"],
+"explanation":"See docs: https://docs.aws.amazon.com/lambda/latest/dg/limits.html"
+}

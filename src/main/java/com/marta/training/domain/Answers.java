@@ -21,6 +21,9 @@ public class Answers {
     @JsonProperty("E")
     private String E;
 
+    @JsonProperty("F")
+    private String F;
+
     public Answers(){}
 
     public Answers(String A, String B) {
@@ -28,12 +31,13 @@ public class Answers {
         B = B;
     }
 
-    public Answers(String a, String b, String c, String d, String e) {
+    public Answers(String a, String b, String c, String d, String e, String f) {
         A = a;
         B = b;
         C = c;
         D = d;
         E = e;
+        F = f;
     }
 
     public String getA() {
@@ -54,5 +58,9 @@ public class Answers {
 
     public String getE() {
         return E;
+    }
+
+    public String getF() {
+        return F;
     }
 }
