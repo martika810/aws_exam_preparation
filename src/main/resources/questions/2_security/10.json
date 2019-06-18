@@ -1,0 +1,11 @@
+{
+  "topic":"vpc",
+  "question":"When is the ip address of an ec2 launched in VPC released?",
+  "answers":{
+    "A":"When the ec2 stops",
+    "B":"When the ec2 terminates",
+    "C":"When the ec2 is restarted"
+  },
+  "correctAnswers":["B"],
+  "explanation": "See docs:?"
+}

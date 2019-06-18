@@ -1,0 +1,10 @@
+{
+  "topic":"vpc",
+  "question":"Amazon automatically assigns a public IP to an instance launched in a default VPC",
+  "answers":{
+    "A":"True",
+    "B":"False"
+  },
+  "correctAnswers":["A"],
+  "explanation": "See docs:?"
+}

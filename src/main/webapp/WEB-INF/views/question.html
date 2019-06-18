@@ -12,19 +12,31 @@
         <div class="form-group">
             <label for="" class="col-md-8 control-label" th:text="${question.question}"></label>
             <div id="answers" class="col-md-8">
-                <input name="checkbox1" type="hidden" value="0"/>
-                <input name="checkbox2" type="hidden" value="0"/>
-                <input name="checkbox3" type="hidden" value="0"/>
-                <input name="checkbox4" type="hidden" value="0"/>
-                <input name="checkbox5" type="hidden" value="0"/>
-                <input name="checkbox6" type="hidden" value="0"/>
-                <div class="btn-group-vertical" data-toggle="buttons">
-                    <button value="A" type="button" class="btn btn-default" data-checkbox-name="checkbox1" th:text="${question.answers.A}"></button>
-                    <button value="B" type="button" class="btn btn-default" data-checkbox-name="checkbox2" th:text="${question.answers.B}"></button>
-                    <button value="C" th:if="${question.answers.C != null}" type="button" class="btn btn-default" data-checkbox-name="checkbox3" th:text="${question.answers.C}"></button>
-                    <button value="D" th:if="${question.answers.D != null}" type="button" class="btn btn-default" data-checkbox-name="checkbox4" th:text="${question.answers.D}"></button>
-                    <button value="E" th:if="${question.answers.E != null}" type="button" class="btn btn-default" data-checkbox-name="checkbox5" th:text="${question.answers.E}"></button>
-                    <button value="F" th:if="${question.answers.F != null}" type="button" class="btn btn-default" data-checkbox-name="checkbox6" th:text="${question.answers.F}"></button>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="A" th:text="${question.answers.A}"></label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="B" th:text="${question.answers.B}"></label>
+                </div>
+                <div th:if="${question.answers.C != null}" class="checkbox">
+                    <label><input type="checkbox" value="C" th:text="${question.answers.C}"></label>
+                </div>
+                <div th:if="${question.answers.D != null}" class="checkbox">
+                    <label><input type="checkbox" value="D" th:text="${question.answers.D}"></label>
+                </div>
+                <div th:if="${question.answers.E != null}" class="checkbox">
+                    <label><input type="checkbox" value="E" th:text="${question.answers.E}"></label>
+                </div>
+                <div th:if="${question.answers.F != null}" class="checkbox">
+                    <label><input type="checkbox" value="F" th:text="${question.answers.F}"></label>
+                </div>
+            </div>
+            <div id="result_panel" class="col-md-10">
+                <div class="alert alert-success hidden" role="alert">
+                    Correct!
+                </div>
+                <div class="alert alert-danger hidden" role="alert">
+                    Opss! Try again
                 </div>
             </div>
             <div class="col-md-5">
@@ -36,28 +48,25 @@
         </div>
     </div>
     <script th:inline="javascript">
-        $('.btn[data-checkbox-name]').click(function() {
-            var selectedCheckboxName = this.getAttribute('data-checkbox-name');
-            var selectedInput = $('input['+"name="+selectedCheckboxName+']')
-            selectedInput.val($(this).hasClass('focus') ? 0 : 1);
-            if($(this).hasClass('focus')) {
-                $(this).removeClass('focus');
-            }else{
-                $(this).addClass('focus');
-            }
-
-        });
-
+    /*<![CDATA[*/
+        var question = [[${question}]];
+    /*]]>*/
         $('#submit').click(function(){
             var selectedAnswers = []
-            $('div#answers button').forEach(function(entry){
-                var checkboxName = entry.getAttribute('data-checkbox-name');
-
+            var checkboxList = $('.checkbox input')
+            $.each(checkboxList, function(index, value){
+                if($(value).is(':checked')){
+                    var selectedValue = $(value).attr('value')
+                    selectedAnswers.push(selectedValue)
+                }
             });
-            // get the selected values
-            // compare with the correct answer value
-            //if all selected display the correct message
-            //else display the incorrect try again
+            $('#result_panel button').addClass('hidden')
+            if(question.correctAnswers.sort().toString()==selectedAnswers.sort().toString()) {
+                $('#result_panel .alert-success').removeClass('hidden')
+            } else{
+                $('#result_panel .alert-danger').removeClass('hidden')
+            }
+
         });
 
         $('#next').click(function(){

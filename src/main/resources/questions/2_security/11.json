@@ -1,0 +1,11 @@
+{
+  "topic":"vpc",
+  "question":"When is the ip address of a classic ec2 released?",
+  "answers":{
+    "A":"When the ec2 stops",
+    "B":"When the ec2 terminates",
+    "C":"When the ec2 is restarted"
+  },
+  "correctAnswers":["A","B","C"],
+  "explanation": "See docs:?"
+}

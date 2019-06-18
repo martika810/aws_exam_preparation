@@ -1,0 +1,12 @@
+{
+  "topic":"vpc",
+  "question":"Which of the following statements is correct regarding Elastic IP Addresses",
+  "answers":{
+    "A":"Amazon doesn't charge if the Elastic Ip address is not associated to any ec2",
+    "B":"If an Elastic IP is associated with a region, it can't be used in another region",
+    "C": "When an Elastic IP is associated with a primary network interface of an instance, its public IPv4 address is released",
+    "D":"An instance with a primary network interface can have both an Elastic IP as well as a public IP at the same time"
+  },
+  "correctAnswers":["B","C"],
+  "explanation": "See docs:?"
+}
