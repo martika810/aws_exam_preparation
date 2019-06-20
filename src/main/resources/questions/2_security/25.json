@@ -1,0 +1,13 @@
+{
+  "topic":"flow logs",
+  "question":"Which of the following statements is true regarding Flow logs?",
+  "answers":{
+    "A": "Adding a new instance in a subnet(flow log enabled) will automatically starts collecting the flow logs for newly created network interfaces",
+    "B": "You can create a flow log for a VPC, a subnet, or a network interface",
+    "C": "Deleting a flow log will delete any existing flow log records or log streams for CloudWatch",
+    "D": "You can create a flow log for Elastic Load Balancing and Amazon RDS ",
+    "E": "Deleting a flow log disables the flow log service for the resource and it does not delete any existing flow log records or log streams"
+  },
+  "correctAnswers":["A","B","E"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html"
+}
