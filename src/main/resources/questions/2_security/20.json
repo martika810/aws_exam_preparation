@@ -1,0 +1,13 @@
+{
+  "topic":"vpc",
+  "question":"Which of the following statements is true regarding security groups?",
+  "answers":{
+    "A": "Security groups are stateless",
+    "B": "By default, a security group doesn't include any rule",
+    "C": "Instances associated with a security group can't talk to each other unless you add rules allowing it ",
+    "D": "Any modification in security group rules is saved and it immediately gets applied",
+    "E": "Security groups are associated with network interfaces"
+  },
+  "correctAnswers":["C","D","E"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html"
+}

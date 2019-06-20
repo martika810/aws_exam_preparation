@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import java.io.IOException;
+import java.util.Random;
 
 @Controller
 public class QuestionController {
@@ -18,7 +19,10 @@ public class QuestionController {
 
     @GetMapping("/")
     public String serveQuestion(Model model) throws IOException {
-        Question question= service.getRandomQuestion(Module.Deployment);
+        int moduleNumberSelected = (new Random().nextInt(1000)%2)+1;
+        System.out.println("Module selected="+moduleNumberSelected);
+        Module selectedModule = Module.getValueOf(moduleNumberSelected);
+        Question question= service.getRandomQuestion(selectedModule);
         model.addAttribute("question",question);
         return "question";
     }

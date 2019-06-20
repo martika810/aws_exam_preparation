@@ -1,0 +1,13 @@
+{
+  "topic":"nacl",
+  "question":"Which of the following statements is true regarding NACLs?",
+  "answers":{
+    "A": "A subnet could be associated with no NACL",
+    "B": "NACLs rules are stateless",
+    "C": "Adding many rules no a NACLs has no impact on performance",
+    "D": "Each rule Allow or Deny traffic",
+    "E": "A subnet can be associated only with one NACL"
+  },
+  "correctAnswers":["B","D","E"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html"
+}

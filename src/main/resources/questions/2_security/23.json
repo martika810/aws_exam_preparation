@@ -1,0 +1,13 @@
+{
+  "topic":"nacl",
+  "question":"Which of the following statements is true regarding Security Group?",
+  "answers":{
+    "A": "Rules execute in a sequence, as they are numbered",
+    "B": "Only one security group can be attached to a subnet.",
+    "C": "It is stateful",
+    "D": "By default, all incoming requests are denied and all outgoing requests are allowed",
+    "E": "Up to five security groups can be attached to a network interface"
+  },
+  "correctAnswers":["C","D","E"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html"
+}

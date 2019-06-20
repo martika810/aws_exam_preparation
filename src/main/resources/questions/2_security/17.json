@@ -1,0 +1,13 @@
+{
+  "topic":"vpc",
+  "question":"Which of the following statements is correct about Network ACL(Select 3 answers)?",
+  "answers":{
+    "A": "Operates at the subnet level",
+    "B": "Process rules in number order when deciding whether to allow traffic",
+    "C": "Is stateful: Return traffic is automatically allowed, regardless of any rules",
+    "D": "Supports allow rules and deny rules",
+    "E": "Applies to an instance only if someone specifies the security group when launching the instance"
+  },
+  "correctAnswers":["A","B","D"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Security.html"
+}

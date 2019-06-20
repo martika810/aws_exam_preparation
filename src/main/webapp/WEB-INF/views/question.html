@@ -35,8 +35,7 @@
                 <div class="alert alert-success hidden" role="alert">
                     Correct!
                 </div>
-                <div class="alert alert-danger hidden" role="alert">
-                    Opss! Try again
+                <div class="alert alert-danger hidden" role="alert" th:text="${question.explanation}">
                 </div>
             </div>
             <div class="col-md-5">

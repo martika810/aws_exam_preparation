@@ -1,0 +1,13 @@
+{
+  "topic":"nacl",
+  "question":"Which of the following statements is true regarding NACLs?",
+  "answers":{
+    "A": "They are evaluated based on its rule numbers",
+    "B": "NACLs rules are stateful",
+    "C": "Adding many rules no a NACLs has no impact on performance",
+    "D": "* rule is evaluate the first",
+    "E": "By default, NACLs block all inbound and outbound IPv4 traffic"
+  },
+  "correctAnswers":["A","E"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html"
+}

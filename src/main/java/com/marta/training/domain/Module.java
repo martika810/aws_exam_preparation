@@ -1,16 +1,20 @@
 package com.marta.training.domain;
 
 public enum Module {
-    Deployment("1_deployment",34),
-    Security("2_security",0);
+    Deployment(1,"1_deployment",38),
+    Security(2,"2_security",17);
 
+    private int id;
     private String folder;
     private int numberAvailableQuestions;
 
-    private Module(String folder, int numberAvailableQuestions) {
+    private Module(int id, String folder, int numberAvailableQuestions) {
+        this.id = id;
         this.folder = folder;
         this.numberAvailableQuestions =numberAvailableQuestions;
     }
+
+    public int getId(){ return id; }
 
     public String getFolder() {
         return folder;
@@ -18,5 +22,14 @@ public enum Module {
 
     public int getNumberAvailableQuestions() {
         return numberAvailableQuestions;
+    }
+
+    public static Module getValueOf(int id) {
+        for( Module module:Module.values()){
+            if(module.getId() == id){
+                return module;
+            }
+        }
+        return null;
     }
 }

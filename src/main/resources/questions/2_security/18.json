@@ -1,0 +1,12 @@
+{
+  "topic":"vpc",
+  "question":"Which of the following components enable instances in a private subnet to connect to the internet?",
+  "answers":{
+    "A": "Network interface",
+    "B": "Route table",
+    "C": "Internet Gateway",
+    "D": "NAT Gateway"
+  },
+  "correctAnswers":["D"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat.html"
+}

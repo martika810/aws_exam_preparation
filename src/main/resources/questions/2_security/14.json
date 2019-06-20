@@ -1,0 +1,11 @@
+{
+  "topic":"vpc",
+  "question":"Which of the following feature act as a firewall for associated Amazon EC2 instances?",
+  "answers":{
+    "A": "Flow logs",
+    "B": "Security groups",
+    "C": "Network access control lists"
+  },
+  "correctAnswers":["B"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Security.html"
+}

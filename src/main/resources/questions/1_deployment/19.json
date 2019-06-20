@@ -8,6 +8,6 @@
 "D": "Context",
 "E": "Invocation Type"
 },
-"correctAnswers":["A","C","E"],
+"correctAnswers":["A","C","D"],
 "explanation":"See AWS documentation: https://docs.aws.amazon.com/lambda/latest/dg/programming-model-v2.html"
 }

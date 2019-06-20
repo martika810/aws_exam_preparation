@@ -1,0 +1,12 @@
+{
+  "topic":"vpc",
+  "question":"Which of the following statements is true regarding security groups?",
+  "answers":{
+    "A": "A maximum of five security groups can be attached to a network interface",
+    "B": "Any modification in security group get applied when associated ec2 restarts",
+    "C": "By default a security group allows all outgoing communication and blocks all incoming communication",
+    "D": "You need to create outbound traffic rules for port and protocol described in inbound rules"
+  },
+  "correctAnswers":["A","C"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html"
+}
