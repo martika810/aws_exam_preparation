@@ -1,0 +1,12 @@
+{
+  "topic":"nacl",
+  "question":"Which encryption method is supported by AWS EC2 and S3 by default?",
+  "answers":{
+    "A": "256-bit Advanced Encryption Standard (AES-256)",
+    "B": "RSA",
+    "C": "128-bit AES",
+    "D": "DES"
+  },
+  "correctAnswers":["A"],
+  "explanation": "See docs: "
+}

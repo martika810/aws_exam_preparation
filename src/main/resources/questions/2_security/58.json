@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following is true regarding route tables?",
+  "answers": {
+    "A": "Every VPC has an implicit router",
+    "B": "Every has a main route table that delete and replace by other custom route table",
+    "C": "The target of a route can be IGW, VGW, a NAT device, a peering connection, or a VPC endpoint",
+    "D": "AWS allows a hard limit of 200 route tables per VPC with 50 routes per table"
+  },
+  "correctAnswers":["A","C","D"],
+  "explanation": "See docs: ENTER_LINK"
+}

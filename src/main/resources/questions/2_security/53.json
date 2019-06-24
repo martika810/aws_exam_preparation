@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":" Which of the following statements are true? (Choose two)",
+  "answers": {
+    "A": "A security group automatically applies to all instances that you launch.",
+    "B": "A security group applies to an instance only if you specify the security group at the instance launch time or associate the security group with the instance later.",
+    "C": "A network ACL automatically applies to all instances in the subnets you associate the ACL with.",
+    "D": "A network ACL applies to an instance only if you specify a security group for the instance."
+  },
+  "correctAnswers":["B","C"],
+  "explanation": "See docs: ENTER_LINK"
+}

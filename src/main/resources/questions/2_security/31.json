@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which statement is true?",
+  "answers":{
+    "A": "Every region has at least two AZs and each AZ is isolated but inter-connected with low-latency dedicated connectivity",
+    "B": "Every region may have one or more AZs and each AZ is isolated but inter-connected with low-latency dedicated connectivity",
+    "C": "Every region has at least two AZs and each AZ is isolated but inter-connected through the internet",
+    "D": "Every region consists of only one AZ that automatically provides highly-available infrastructures"
+  },
+  "correctAnswers":["A"],
+  "explanation": "See docs: "
+}

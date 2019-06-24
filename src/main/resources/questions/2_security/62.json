@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following statements are true regarding Egress-only IGWs?",
+  "answers": {
+    "A": "They only work with IPv6; they don't work with IPv4 addresses",
+    "B": "It ensures that the EC2 instances are accessible from the internet",
+    "C": "For enabling egress-only internet traffic, you need to create an egress-only IGW in VPC and add a route to the route table pointing all IPv6 traffic to (::/0) to the egress-only IGW",
+    "D": "It ensures that EC2 instances can communicate with the internet"
+  },
+  "correctAnswers":["A","C","D"],
+  "explanation": "See docs: LINK"
+}

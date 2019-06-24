@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following statements are true about a NAT device?",
+  "answers": {
+    "A": "It acts as an intermediate point between instances and IGWs",
+    "B": "It supports both IPv4 and IPv6",
+    "C": "It deployed in a private subnet",
+    "D": "There should be a route entry in a private subnet's route table, pointing internet traffic to the NAT instance"
+  },
+  "correctAnswers":["A","D"],
+  "explanation": "See docs: LINK"
+}

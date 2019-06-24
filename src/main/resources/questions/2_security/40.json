@@ -1,0 +1,12 @@
+{
+  "topic":"nacl",
+  "question":"You are tracking your web page users with a tracking image that loads on each web page. \n You are now serving this image from us-east, but your research shows that it takes too long to load the image for users on us-west. \n What are the ways in which you can speed the image serving? (Choose two)",
+  "answers":{
+    "A": "Use CloudFront to serve the image.",
+    "B": "Serve the image directly from an Amazon S3 bucket.",
+    "C": "Use Route 53 as your DNS service, and choose its latency-based routing to serve the image out of both us-east-1 and us-west-2.",
+    "D": "Use cookies rather than loading the images with each web page load."
+  },
+  "correctAnswers":["A","C"],
+  "explanation": "See docs: ENTER_LINK"
+}

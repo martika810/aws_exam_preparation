@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"You can control traffic routing within a VPC and into and out of a VPC by using which of the following?",
+  "answers": {
+    "A": "Route tables only",
+    "B": "Network ACLs and security groups only",
+    "C": "Route tables, network ACLs, and security groups",
+    "D": "DHCP"
+  },
+  "correctAnswers":["C"],
+  "explanation": "See docs: ENTER_LINK"
+}

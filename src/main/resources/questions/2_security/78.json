@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which AWS Service allows a VPC to communicate with the EC2 instances launched in EC2-Classic?",
+  "answers":{
+    "A":"VPC peering",
+    "B":"ClassicLink",
+    "C":"VPC endpoints",
+    "D":"DHCP option set"
+  },
+  "correctAnswers":["B"],
+  "explanation":""
+}

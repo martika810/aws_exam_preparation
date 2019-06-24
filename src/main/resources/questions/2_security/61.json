@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following components is a virtual router in a VPC and stopping point for data to and from  the internet?",
+  "answers": {
+    "A": "Network Interface",
+    "B": "Route table",
+    "C": "IGWs",
+    "D": "NAT"
+  },
+  "correctAnswers":["C"],
+  "explanation": "See docs: LINK"
+}

@@ -1,0 +1,12 @@
+{
+  "topic":"nacl",
+  "question":"Which purposes does an Internet gateway server serve? (Choose two)",
+  "answers":{
+    "A": "Use CloudFront to serve the image.",
+    "B": "Serve the image directly from an Amazon S3 bucket.",
+    "C": "Use Route 53 as your DNS service, and choose its latency-based routing to serve the image out of both us-east-1 and us-west-2.",
+    "D": "Use cookies rather than loading the images with each web page load."
+  },
+  "correctAnswers":["C","D"],
+  "explanation": "See docs: ENTER_LINK"
+}

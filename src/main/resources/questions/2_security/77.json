@@ -1,0 +1,13 @@
+{
+  "topic":"networking",
+  "question":"Which if the following statements is true regarding VPC endpoints?",
+  "answers":{
+    "A":"It uses VPN connection to establish connection with other AWS Services",
+    "B":"With the help of a VPC endpoint, there is no need to route traffic through the internet",
+    "C":"Source VPC and target resources of AWS services can be in different regions",
+    "D":"When creating a VPC endpoint, you need to define a source VPC and target AWS service",
+    "E":"In order to use a VPC endpoint, it is essential to enable a DNS resolution in a VPC"
+  },
+  "correctAnswers":["B","D","E"],
+  "explanation":""
+}

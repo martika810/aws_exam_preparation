@@ -1,0 +1,12 @@
+{
+  "topic":"nacl",
+  "question":"What is the reason for launching EC2 instances in a private subnet?",
+  "answers":{
+    "A": "To enable users to connect to the EC2 instances faster",
+    "B": "Because AWS requires you to place EC2 instances in private subnets",
+    "C": "Because a public subnet has no way to reach the Internet",
+    "D": "To provide an additional layer of security for the EC2 instances"
+  },
+  "correctAnswers":["D"],
+  "explanation": "See docs: ENTER_LINK"
+}

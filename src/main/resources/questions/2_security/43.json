@@ -1,0 +1,12 @@
+{
+  "topic":"nacl",
+  "question":"Which of the following features can you use to investigate a suspected brute-force hacking attempt into one of your EC2 instances? (Choose three)",
+  "answers":{
+    "A": "Check the access logs.",
+    "B": "Enable VPC flow logs and examine the logs.",
+    "C": "Check GuardDuty’s findings.",
+    "D": "Explore the EC2 instance’s operating system logs."
+  },
+  "correctAnswers":["B","C","D"],
+  "explanation": "See docs: ENTER_LINK"
+}

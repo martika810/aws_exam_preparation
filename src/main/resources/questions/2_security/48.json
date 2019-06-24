@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following statements are correct regarding inbound and outbound rules when adding security rules to a security group? (Choose two)",
+  "answers": {
+    "A": "An inbound rule consists of the traffic source and the destination port (or port range). The source may be another security group, a single IP address, or an IPv4 or IPv6 CIDR block.",
+    "B": "An outbound rule contains the traffic destination and the destination port (or port range). The destination may be another security group, a single IP address, or an IPv4 or IPv6 CIDR block.",
+    "C": "An inbound rule consists of the traffic destination and the destination port (or port range). The source may be another security group, a single IP address, or an IPv4 or IPv6 CIDR block.",
+    "D": "An outbound rule contains the traffic source and the destination port (or port range). The destination may be another security group, a single IP address, or an IPv4 or IPv6 CIDR block."
+  },
+  "correctAnswers":["A","B"],
+  "explanation": "See docs: ENTER_LINK"
+}

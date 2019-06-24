@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"You can create VPC flow logs for which of the following entities?",
+  "answers": {
+    "A": "VPC only",
+    "B": "VPC or subnet only",
+    "C": "Network interface only",
+    "D": "VPC, subnet, or network interface"
+  },
+  "correctAnswers":["D"],
+  "explanation": "See docs: ENTER_LINK"
+}

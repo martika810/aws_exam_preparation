@@ -1,0 +1,12 @@
+{
+  "topic":"vpc",
+  "question":"Which of the following statements is true?",
+  "answers":{
+    "A": "VPC can span across multiple regions",
+    "B": "VPC can span across multiple AZs",
+    "C": "VPC can span across multiple AZs and multiple regions",
+    "D": "VPC spans across AZs and optionally across regions"
+  },
+  "correctAnswers":["B"],
+  "explanation": "See docs: "
+}

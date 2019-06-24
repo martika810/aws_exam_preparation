@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following statements are true regarding a DHCP option set?",
+  "answers": {
+    "A": "To modify the DHCP option set of a VPC, you need to create new DHCP option set and associate it with the VPC",
+    "B": "Once the DHCP option set is created, its parameters can be modified anytime",
+    "C": "Not every VPC has one DHCP option set",
+    "D": "It is a network protocol that dynamically assigns IP addresses to instances in a VPC"
+  },
+  "correctAnswers":["A","D"],
+  "explanation": "See docs: LINK"
+}

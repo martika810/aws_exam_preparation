@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"What subnet is usually recommended for hosting a database instance in RDS?",
+  "answers":{
+    "A": "Public subnet",
+    "B": "Private subnet",
+    "C": "A and B",
+    "D": "None of the above"
+  },
+  "correctAnswers":["B"],
+  "explanation": "See docs: "
+}

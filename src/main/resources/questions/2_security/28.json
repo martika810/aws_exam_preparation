@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"What can be used to provide internet connectivity to the resources residing in a private subnet?",
+  "answers":{
+    "A": "NAT instance or NAT gateway",
+    "B": "Internet gateway",
+    "C": "Virtual private gateway",
+    "D": "Elastic Load Balancer"
+  },
+  "correctAnswers":["B"],
+  "explanation": "See docs: "
+}

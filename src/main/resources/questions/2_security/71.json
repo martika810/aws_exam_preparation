@@ -1,0 +1,13 @@
+{
+  "topic":"networking",
+  "question":"Which of the following DHCP option parameter is a method that computers use to resolve a NetBIOS name into an IP address?",
+  "answers": {
+    "A": "domain-name",
+    "B": "domain-name-servers",
+    "C": "ntp-servers",
+    "D": "netbios-name-servers",
+    "E": "netbios-node-type"
+  },
+  "correctAnswers":["E"],
+  "explanation": "See docs: LINK"
+}

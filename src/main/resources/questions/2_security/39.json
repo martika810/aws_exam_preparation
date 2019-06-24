@@ -1,0 +1,12 @@
+{
+  "topic":"nacl",
+  "question":"Which of the following statements is true about Amazon CloudFront?",
+  "answers":{
+    "A": "It delivers the latest version of a file to the users.",
+    "B": "It will wait until the entire file downloads, so it can perform error checking before sending the file over to the user.",
+    "C": "It forwards a file to the user as soon as it receives the first bytes of the file.",
+    "D": "It waits for the user to request the file."
+  },
+  "correctAnswers":["C"],
+  "explanation": "See docs: ENTER_LINK"
+}

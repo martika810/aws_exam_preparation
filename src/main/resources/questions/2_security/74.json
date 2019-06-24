@@ -1,0 +1,14 @@
+{
+"topic":"networking",
+"question":"Which of the following statements are true regarding VPC peering?",
+"answers":{
+"A":"It is a way to connect two different VPCs within the same region and same account",
+"B":"Once VPC2 owner accepts the peering request, connection between the two VPCs can be established",
+"C":"For enabling traffic between the two VPCs, both the VPCs need to add a router entry in their respective route tables ",
+"D":"To Enable traffic from the peering VPCs, updating the security groups of each VPC might be required",
+"E":"In a VPC peering connection, network traffic will flow through a separate VPC resources such as gateway or VPN connections",
+"F":"It is a way to connect two different VPCs within the same region irrespective of whether they belong to the same AWS account or a different AWS account"
+},
+"correctAnswers":["C","D","F"],
+"explanation": ""
+}

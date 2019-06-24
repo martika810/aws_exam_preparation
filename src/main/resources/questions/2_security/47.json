@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"If you don’t see a heath check for an Application Load Balancer in the CloudWatch console after updating the health check’s port, what could be the reason?",
+  "answers": {
+    "A": "You must look for the health checks in the Application Load Balancer’s console.",
+    "B": "You failed to restart the Application Load Balancer after making the port change.",
+    "C": "You haven’t enabled your security group’s rules to ensure that they allow traffic to the new port.",
+    "D": "You can’t change a health check’s port."
+  },
+  "correctAnswers":["C"],
+  "explanation": "See docs: ENTER_LINK"
+}

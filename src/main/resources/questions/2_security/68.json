@@ -1,0 +1,14 @@
+{
+  "topic":"networking",
+  "question":"Which of the following are parameter to configure an option set ?",
+  "answers": {
+    "A": "domain-name",
+    "B": "netbios-cidr",
+    "C": "netbios-name-servers",
+    "D": "ntp-protocol",
+    "E": "netbios-type",
+    "F": "domain-name-servers"
+  },
+  "correctAnswers":["A","C","F"],
+  "explanation": "See docs: LINK"
+}

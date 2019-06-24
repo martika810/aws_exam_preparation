@@ -1,0 +1,11 @@
+{
+  "topic":"networking",
+  "question":"How would you collect information regarding the IP address of the client making requests on a Classic Load Balancer that you’ve implemented?",
+  "answers":{
+    "A": "Use access logs to gather the information.",
+    "B": "Enable CloudWatch and monitor the HostConnect metric.",
+    "C": "Monitor the eventSource API in AWS CloudTrail.",
+    "D": "Use flow logs."
+  "correctAnswers":["A"],
+  "explanation": "See docs: ENTER_LINK"
+}

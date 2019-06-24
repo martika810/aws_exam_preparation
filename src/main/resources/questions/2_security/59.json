@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following is true regarding route tables?",
+  "answers": {
+    "A": "AWS allows a hard limit of 300 route tables per VPC with 50 routes per table",
+    "B": "The target of a route can only be a CIDR block",
+    "C": "Your VPC automatically comes with a main route table that you can modify",
+    "D": "You cannot delete the main route table, but you can replace the main route table with a custom table that you've created"
+  },
+  "correctAnswers":["C","D"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html"
+}

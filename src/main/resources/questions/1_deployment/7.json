@@ -7,6 +7,6 @@
 		"C":"Fn::ImportValue",
 		"D":"Fn::GetAtt"
 	},
-	"correctAnswers":["B"],
+	"correctAnswers":["C"],
 	"explanation":"See intrinsic function aws documentation"
 }

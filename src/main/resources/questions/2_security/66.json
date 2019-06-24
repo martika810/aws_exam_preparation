@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following statements is true about NAT devices(Nat gateway and NAT instance)?",
+  "answers": {
+    "A": "NAT gateway provides better availability and higher bandwidth",
+    "B": "You have to design a custom failover logic regardless of the NAT device",
+    "C": "NAT gateway does not require maintenance activities",
+    "D": "NAT instance provide same bandwidth regardless of the EC2 instance type"
+  },
+  "correctAnswers":["A","C"],
+  "explanation": "See docs: LINK"
+}

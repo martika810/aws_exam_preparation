@@ -1,0 +1,14 @@
+{
+  "topic":"networking",
+  "question":"Which of the following statements are false regarding VPC peering?",
+  "answers":{
+    "A":"It is a way to connect two different VPCs in different region",
+    "B":"VPC1 and VPC2 can belong to the same AWS account or to a different account",
+    "C":"For enabling traffic between the two VPCs, both the VPCs need to add a router entry in their respective route tables ",
+    "D":"The two VPCs can have CIDR blocks that overlap with each other",
+    "E":"In a VPC peering connection, network traffic does not flow through a separate VPC resources such as gateway or VPN connections",
+    "F":"It is a way to connect two different VPCs within the same region irrespective of whether they belong to the same AWS account or a different AWS account"
+  },
+  "correctAnswers":["A","D"],
+  "explanation": ""
+}

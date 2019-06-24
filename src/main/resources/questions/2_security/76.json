@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which AWS Service enables you to create a private connection between different AWS services without going through either an IGW, NAT gateway/instance, a VPN connection, or AWS Direct Connect?",
+  "answers":{
+    "A":"VPC peering",
+    "B":"DNS",
+    "C":"VPC endpoints",
+    "D":"DHCP option set"
+  },
+  "correctAnswers":["C"],
+  "explanation":""
+}

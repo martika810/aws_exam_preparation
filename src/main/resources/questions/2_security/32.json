@@ -1,0 +1,12 @@
+{
+  "topic":"vpc",
+  "question":"How many IPs are reserved in a VPC CIDR range?",
+  "answers":{
+    "A": "10",
+    "B": "5",
+    "C": "2",
+    "D": "1"
+  },
+  "correctAnswers":["A"],
+  "explanation": "See docs: "
+}

@@ -1,0 +1,14 @@
+{
+  "topic":"networking",
+  "question":"Which of the following is true regarding DNS?",
+  "answers": {
+    "A": "When launching an EC2 instance in a custom VPC, by default, it gets a private and public DNS hostname",
+    "B": "In a default VPC, enableDnsHostnames and enableDnsSupport parameters are set to true",
+    "C": "EC2 instance within a VPC can share a DNS name",
+    "D": "Every EC2 instance in a VPC requires a unique DNS name",
+    "E": "When launching a new EC2 instance inside a default VPC, by default, it gets a private and public DNS hostname"
+
+  },
+  "correctAnswers":["D","E"],
+  "explanation": "See docs: LINK"
+}

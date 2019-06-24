@@ -1,0 +1,12 @@
+{
+  "topic":"nacl",
+  "question":"Which of the following is not a benefit you gain from Amazon Direct Connect?",
+  "answers":{
+    "A": "Lower data transfer costs",
+    "B": "Higher latency",
+    "C": "Connect to VPCs in different regions",
+    "D": "Direct connectivity between your VPC and your onsite data center network"
+  },
+  "correctAnswers":["B"],
+  "explanation": "See docs: ENTER_LINK"
+}

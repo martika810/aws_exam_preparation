@@ -2,7 +2,7 @@ package com.marta.training.domain;
 
 public enum Module {
     Deployment(1,"1_deployment",38),
-    Security(2,"2_security",22);
+    Security(2,"2_security",77);
 
     private int id;
     private String folder;

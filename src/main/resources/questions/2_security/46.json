@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following is an origin server in Amazon CloudFront? (Choose two)",
+  "answers": {
+    "A": "An HTTP server or an Amazon S3 bucket for distributing static content",
+    "B": "An Amazon S3 bucket for distributing media files on demand",
+    "C": "A HTTP web server that you run on-premises for distributing media files on demand",
+    "D": "An Amazon S3 bucket for static content only"
+  },
+  "correctAnswers":["A","B"],
+  "explanation": "See docs: ENTER_LINK"
+}

@@ -1,0 +1,14 @@
+{
+  "topic":"networking",
+  "question":"Which of the following statement is false regarding DNS?",
+  "answers": {
+    "A": "When launching an EC2 instance in a custom VPC, by default, it gets only a private DNS hostname ",
+    "B": "When enableDnsHostnames is set to true, an EC2 instance in the VPC gets private DNS hostnames ",
+    "C": "EC2 instance within a VPC can share a DNS name",
+    "D": "The enableDnsSupport parameter indicates DNS resolution is supported",
+    "E": "When launching a new EC2 instance inside a default VPC, by default, it gets a private DNS hostname"
+
+  },
+  "correctAnswers":["B","C","E"],
+  "explanation": "See docs: LINK"
+}

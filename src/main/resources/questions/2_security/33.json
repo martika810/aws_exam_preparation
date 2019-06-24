@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"What’s the best way to set up a highly available connection between your Amazon VPC and your on-premise data center?",
+  "answers":{
+    "A": "Launch EC2 instances across multiple availability zones and set up route tables so that a different EC2 instance automatically takes over when an EC2 instance fails.",
+    "B": "Create an AWS Direct Connect setup between your Amazon VPC and your data center.",
+    "C": "Create a virtual private gateway with a route to your data center.",
+    "D": "Create a virtual private gateway and ensure that you configure two customer gateways."
+  },
+  "correctAnswers":["D"],
+  "explanation": "See docs: "
+}

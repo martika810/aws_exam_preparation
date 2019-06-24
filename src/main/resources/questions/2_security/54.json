@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"When you terminate an EC2 instance after having assigned it an Elastic IP, what happens to the Elastic IP that you’ve assigned?",
+  "answers": {
+    "A": "The Elastic IP remains associated with your AWS account, and you’ll continue to be charged for it",
+    "B": "The Elastic IP is disassociated from your AWS account.",
+    "C": "The Elastic IP remains associated with your AWS account, but you won’t be charged for it.",
+    "D": "The Elastic IP goes back to the pool of AWS’s available IP addresses."
+  },
+  "correctAnswers":["A"],
+  "explanation": "See docs: ENTER_LINK"
+}

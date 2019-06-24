@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"An alias record type can point to which of the following? (Choose three)",
+  "answers": {
+    "A": "An Application Load Balancer",
+    "B": "An Amazon S3 bucket that you’ve configured as a static web site",
+    "C": "Another Route 53 resource set in the same hosted zone",
+    "D": "An IP address or a domain name"
+  },
+  "correctAnswers":["A","B","C"],
+  "explanation": "See docs: ENTER_LINK"
+}

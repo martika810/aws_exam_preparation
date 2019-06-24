@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following components is a virtual router or a gateway in a VPC, which enables instances in a private subnet to interact with the internet via IPv4?",
+  "answers": {
+    "A": "Egress-only IGWs",
+    "B": "Route table",
+    "C": "IGWs",
+    "D": "NAT"
+  },
+  "correctAnswers":["D"],
+  "explanation": "See docs: LINK"
+}

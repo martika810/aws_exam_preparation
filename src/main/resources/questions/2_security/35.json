@@ -1,0 +1,12 @@
+{
+  "topic":"nacl",
+  "question":"Which of the following statements is true?",
+  "answers":{
+    "A": "NACL applies at the EC2 level and security groups apply at the network level",
+    "B": "Security groups apply at the EC2 level and NACL at the network level",
+    "C": "It can be implemented interchangeably depending on the project's requirements",
+    "D": "None of the above"
+  },
+  "correctAnswers":["B"],
+  "explanation": "See docs: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html"
+}

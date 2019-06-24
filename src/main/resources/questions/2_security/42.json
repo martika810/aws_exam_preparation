@@ -1,0 +1,12 @@
+{
+  "topic":"nacl",
+  "question":"Which of the following are true with regard to securing your VPC with security groups and network ACLs? (Choose two)",
+  "answers":{
+    "A": "Security groups control inbound and outbound traffic for your EC2 instances.",
+    "B": "Security groups control inbound and outbound traffic for your subnets.",
+    "C": "Network ACLs control inbound and outbound traffic for your EC2 instances.",
+    "D": "Network ACLs control inbound and outbound traffic for your subnets."
+  },
+  "correctAnswers":["A","D"],
+  "explanation": "See docs: ENTER_LINK"
+}

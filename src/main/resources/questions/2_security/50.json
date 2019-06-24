@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following statements are true regarding the statefulness of security groups and network ACLs? (Choose two)",
+  "answers": {
+    "A": "Security groups are stateful and allow responses to allowed traffic, even if the security group’s rules don’t permit it.",
+    "B": "Security groups are stateful and allow responses to allowed traffic, only if the security group’s rules permit it.",
+    "C": "Network ACLs are stateless and allow responses to allowed traffic, subject to network ACL rules.",
+    "D": "Network ACLs are stateless and allow responses to allowed traffic, regardless of the network ACL rules."
+  },
+  "correctAnswers":["A","C"],
+  "explanation": "See docs: ENTER_LINK"
+}

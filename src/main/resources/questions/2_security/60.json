@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following are critical points to enable internet access in a VPC Subnet?",
+  "answers": {
+    "A": "Instances in a subnet need to have a globally unique IP address,",
+    "B": "Security groups should allow traffic to and from the internet, NACLs by default allow access ",
+    "C": "Your VPC automatically comes with a main route table that you can modify",
+    "D": "The VPC must be attached to an IGW"
+  },
+  "correctAnswers":["A","C","D"],
+  "explanation": "See docs: LINK"
+}
