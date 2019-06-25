@@ -1,0 +1,13 @@
+
+{
+  "topic":"networking",
+  "question":"A user of your web-site makes an HTTP request to access a static resource on your server. The request is automatically redirected to the nearest CloudFront server. For some reason, the requested resource does not exist on the CloudFront server. Which of the following is true?",
+  "answers":{
+    "A":"Your user will receive a 404 error.",
+    "B":"Cloudfront will query the origin server and then cache the resource on the edge location.",
+    "C":"The request will be put on hold until the resource has been cached at the edge location",
+    "D":"The request will be sent to the nearest available edge location that contains that resource"
+  },
+  "correctAnswers":["B"],
+  "explanation": ""
+}

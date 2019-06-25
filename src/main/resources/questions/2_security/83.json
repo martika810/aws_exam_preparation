@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"You are a developer for a busy real estate company and you want to enable other real estate agents to the ability to show properties on your books, but skinned so that it looks like their own website. You decide the most efficient way to do this is to create is to expose your API to the public. The project works well, however one of your competitors starts abusing this, sending your API tens of thousands of requests per second. This generates a HTTP 429 error. Each agent connects to your API using individual API keys. What actions can you take to stop this behaviour?",
+  "answers":{
+    "A":"Deploy multiple API Gateways and give the agent access to another API Gateway.",
+    "B":"Throttle the agents API access using the individual API Keys",
+    "C":"Use AWS Shield Advanced API protection to block the requests.",
+    "D": "Place an AWS Web Application Firewall in front of API gateway and filter the requests."
+  },
+  "correctAnswers":["B"],
+  "explanation": ""
+}

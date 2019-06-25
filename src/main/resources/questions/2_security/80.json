@@ -1,0 +1,13 @@
+{
+  "topic":"networking",
+  "question":"You have been hired by a large online store to help optimize their web application. There are 3 webservers behind an elastic load balancer and each connects to the same RDS instance. This RDS instance started out as a small memory optimized instance. However, as the traffic increased, the company has moved to a larger instance type. The current instance is the largest RDS instance currently available and it is beginning to run out of memory. You need to find a way to further scale the web application. What should you do?",
+  "answers":{
+    "A":"Increase the number of EC2 web instances so you can have even more connections to the RDS instance.",
+    "B":"Advise the company to hold a sale, and then contact Amazon to pre-warm the elastic load balancer.",
+    "C":"Add a couple of read replicas and adjust the application so that read-only traffic is diverted to these instances. Write traffic will remain with the main DB server.",
+    "D":"Advise your customer that their application has grown beyond the capabilities of AWS and should be migrated back to an on-premise solution."
+  },
+  "correctAnswers":["C"],
+  "explanation": ""
+}
+

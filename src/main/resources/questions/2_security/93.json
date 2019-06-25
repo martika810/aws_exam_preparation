@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Can a placement group be deployed across multiple Availability Zones?",
+  "answers":{
+    "A":"Yes.",
+    "B":"No.",
+    "C":"Only in Us-East-1.",
+    "D":"Yes, but only using the AWS API."
+  },
+  "correctAnswers":["A"],
+  "explanation": ""
+}

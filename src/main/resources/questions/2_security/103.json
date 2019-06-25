@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"What is the maximum size for a file stored in S3?",
+  "answers":{
+    "A":"5GB",
+    "B":"50GB",
+    "C":"500GB",
+    "D":"5TB"
+  },
+  "correctAnswers":["D"],
+  "explanation": ""
+}

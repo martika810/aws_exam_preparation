@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which DynamoDB feature can be used to define an expiry date and time for a data record in your table?",
+  "answers":{
+    "A":"DynamoDB Streams",
+    "B":"DynamoDB Expiry",
+    "C":"Exponential Backoff",
+    "D":"TTL"
+  },
+  "correctAnswers":["D"],
+  "explanation": ""
+}

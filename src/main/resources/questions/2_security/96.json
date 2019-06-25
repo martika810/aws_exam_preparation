@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"You have just created a 2nd VPC and launched an EC2 instance in a subnet of that VPC.  You want this instance to be publicly available, but you forgot to assign a public IP address during creation. How might you make your instance reachable from the outside world?",
+  "answers":{
+    "A":"Create an Elastic IP address for your instance.",
+    "B":"Create an Internet Gateway and associate it with the private IP address of your instance with it.",
+    "C":"Create an Internet gateway and an Elastic IP address. Associate the Elastic IP with the EC2 instance.",
+    "D":"Go back and create a Public IP address. Associate it with your Internet Gateway."
+  },
+  "correctAnswers":["C"],
+  "explanation": ""
+}

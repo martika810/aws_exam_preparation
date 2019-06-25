@@ -1,0 +1,13 @@
+{
+  "topic":"networking",
+  "question":"You are a SysOps Administrator for an events company that is launching a new TV show tomorrow. You are expecting that traffic to your website tomorrow will be huge. You have created an autoscaling group and have a combination of Reserved and On-demand instances ready. You are about to contact AWS support to ask them to prewarm your ELB in order to meet this demand. Typically, AWS requires 3 pieces of information. Which of the following is NOT information that AWS requires?",
+  "answers":{
+    "A":"The start and end dates of your expected surge in traffic.",
+    "B":"The expected request rate per second.",
+    "C":"The total size of the typical request/response that you will be handling.",
+    "D": "The traffic type (HTTP or HTTPS)."
+  },
+  "correctAnswers":["D"],
+  "explanation": ""
+}
+

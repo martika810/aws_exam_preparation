@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"You working in the media industry, and you have created a web application where users will be able to upload photos they create to your website. This web application must be able to call the S3 API in order to be able to function. Where should you store your API credentials whilst maintaining the maximum level of security.",
+  "answers":{
+    "A":"Save the API credentials locally to each EC2 instance.",
+    "B":"Don't save your API credentials. Instead create a role in IAM and assign this role to an EC2 instance when you first create it.",
+    "C":"Save your API credentials in a public github repository. ",
+    "D":"Get the API credentials using the EC2 instances User Data."
+  },
+  "correctAnswers":["B"],
+  "explanation": ""
+}

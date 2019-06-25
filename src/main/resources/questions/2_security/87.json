@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"You create a static hosting website in a bucket called "acloudguru" in Sydney using S3. What would the new URL endpoint be?",
+  "answers":{
+    "A":"http://www.acloudguru.s3-website-ap-southeast-2.amazonaws.com",
+    "B":"https://s3-ap-southeast-2.amazonaws.com/acloudguru/",
+    "C":"http://acloudguru.s3-website-ap-southeast-2.amazonaws.com",
+    "D":"http://acloudguru.s3-website-ap-eu-central-1.amazonaws.com"
+  },
+  "correctAnswers":["C"],
+  "explanation": ""
+}

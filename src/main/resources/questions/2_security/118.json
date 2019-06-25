@@ -1,0 +1,11 @@
+{
+  "topic":"networking",
+  "question":"Which of the following statements defines the AWS Cognito service?",
+  "answers":{
+    "A":"Service that enables an application to dynamically generate temporary security credentials with restricted permissions based on an IAM role",
+    "B":"Global service that is specifically designed to create and manage users, groups, roles, and policies for securely controlling access to various AWS resources.",
+    "C":"Service that provides authentication, authorization, and user management for your web and mobile apps. Your users can sign in directly with a user name and password, or through a third party such as Facebook, Amazon, or Google"
+  },
+  "correctAnswers":["C"],
+  "explanation": ""
+}

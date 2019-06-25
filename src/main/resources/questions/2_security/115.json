@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"You are working on a mobile phone app for an online retailer which stores customer data in DynamoDB. You would like to allow new users to sign-up using their Facebook credentials. What is the recommended approach?",
+  "answers":{
+    "A":"After the user has authenticated with Facebook, allow them to download encrypted AWS credentials to their device so that the mobile app can access DynamoDB",
+    "B":"Write your own custom code which allows the user to log in via Facebook and receive an authentication token, then calls the AssumeRoleWithWebIdentity API and exchanges the authentication tokens for temporary access to DynamoDB",
+    "C":"After the user has successfully logged in to Facebook and received an authentication token, Cognito should be used to exchange the token for temporary access to DynamoDB",
+    "D":"Embed encrypted AWS credentials into the application code, so that the application can access DynamoDB on the user's behalf."
+  },
+  "correctAnswers":["C"],
+  "explanation": ""
+}

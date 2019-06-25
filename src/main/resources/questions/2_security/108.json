@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Your data analytics team wants to run a number of data processing jobs in parallel. All processed data will be written to an RDS database and the developers have indicated that it doesn't matter if the jobs stop and restart. You have a number of days to produce the data. Which is the most cost effective way to purchase compute instances to run these jobs?",
+  "answers":{
+    "A":"Use On-Demand Instances",
+    "B":"Used Reserved Instances",
+    "C":"Use Dedicated Hosts",
+    "D":"Use Spot Instances"
+  },
+  "correctAnswers":["D"],
+  "explanation": ""
+}

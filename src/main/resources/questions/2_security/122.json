@@ -1,0 +1,14 @@
+{
+  "topic":"networking",
+  "question":"Which of the following statements is true regarding AWS IAM?",
+  "answers":{
+    "A":"Password policy specifies the complexity requirement of a password and defines the mandatory rotation period for a password associated with IAM users.",
+    "B":"This is an extra layer of security protection for user authentication that requires users to enter a six-digit token on top of the username and password.",
+    "C":"A group is a collection of IAM roles.",
+    "D":"A secret key is a 40-character alphanumeric key that acts as a password or secret key",
+    "E":"A user is an IAM entity that constitutes one or more IAM policies defining resource permissions.",
+    "F":"A policy is a document written in YAML format that formally states one or more permissions as per the IAM policy standards"
+  },
+  "correctAnswers":["A","B","D"],
+  "explanation": ""
+}

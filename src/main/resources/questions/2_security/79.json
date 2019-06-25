@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"You manage a Ruby on Rails application that lives on a cluster of EC2 instances. Your website occasionally experiences brief, strong, and entirely unpredictable spikes in traffic that overwhelm your EC2 instances’ resources and freeze the application. As a result, you're losing recently submitted requests from end users. You use Auto Scaling to deploy additional resources to handle the load during spikes, but the new instances don't spin-up fast enough to prevent the existing application servers from freezing. Which of the following will provide the most cost-effective solution in preventing the loss of recently submitted requests?Which of the following statements are true regarding VPC peering?",
+  "answers":{
+    "A":" Ask AWS support to pre-warm the Elastic Load Balancer.",
+    "B":"Use Amazon SQS to decouple the application components and keep the requests in queue until the extra Auto-Scaling instances are available.",
+    "C":"Increase the size of your existing EC2 instances.",
+    "D":"Keep a large EC2 instance on standby."
+  },
+  "correctAnswers":["B"],
+  "explanation": ""
+}

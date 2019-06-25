@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following statements is true about AWS root user?",
+  "answers":{
+    "A":"Root account permissions can be altered by an admin user on the account",
+    "B":"Root account credentials is a combination of email address and password",
+    "C":"It is recommended that you create individual IAM users based on the organizational need",
+    "D":"Root account has complete, unrestricted access to all resources on the account"
+  },
+  "correctAnswers":["B","C","D"],
+  "explanation": ""
+}

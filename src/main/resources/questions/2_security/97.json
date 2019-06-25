@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"You have a fleet of EC2 instances in a private subnet and you need to securely access these via SSH. What should you implement?",
+  "answers":{
+    "A":"An internet gateway",
+    "B":"A Bastion Host/Jump Box",
+    "C":"A new route to your private subnet to make the subnet public",
+    "D":"A VPN concentrator"
+  },
+  "correctAnswers":["B"],
+  "explanation": ""
+}

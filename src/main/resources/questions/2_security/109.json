@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which statement best describes IAM?",
+  "answers":{
+    "A":"IAM allows you to manage users, groups, and roles and their corresponding level of access to the AWS Platform.",
+    "B":"IAM allows you to manage users' passwords only. AWS staff must create new users for your organization. This is done by raising a ticket.",
+    "C":"IAM allows you to manage permissions for AWS resources only.",
+    "D":"IAM stands for Improvised Application Management, and it allows you to deploy and manage applications in the AWS Cloud."
+  },
+  "correctAnswers":["A"],
+  "explanation": ""
+}

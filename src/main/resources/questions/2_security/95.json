@@ -1,0 +1,13 @@
+{
+  "topic":"networking",
+  "question":"You are attempting to launch a number of on-demand EC2 instances, but the launch operation fails with the InstanceLimitExceeded error. What does this error mean?",
+  "answers":{
+    "A":"AWS does not currently have enough on-demand capacity available to complete your request",
+    "B":"There is a region wide problem with EC2. Check the Personal Health Dashboard to see the status of the issue.",
+    "C":"You have exceeded the default limit for the number of instances you are allowed to launch in a single region. Contact AWS support to have your limit increased.",
+    "D":"You have selected an instance type which does not have sufficient capacity to run the operating system"
+  },
+  "correctAnswers":["C"],
+  "explanation": ""
+}
+

@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which AWS service allows you to use S3 as your primary storage and store a copy of only the most frequently accessed files locally in your own data center?",
+  "answers":{
+    "A":"Volume Gateway - Gateway Cached",
+    "B":"Volume Gateway - Gateway Stored",
+    "C":"Elasticache",
+    "D":"Cache Gateway"
+  },
+  "correctAnswers":["A"],
+  "explanation": ""
+}

@@ -1,0 +1,11 @@
+
+{
+  "topic":"networking",
+  "question":"As the AWS platform is PCI DSS Level 1 Certified, I can immediately deploy a website to it that can take and store credit card details without getting a delta accreditation from a QSA.",
+  "answers":{
+    "A":"True",
+    "B":"False"
+  },
+  "correctAnswers":["B"],
+  "explanation": ""
+}

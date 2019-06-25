@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"In what language are policy documents written?",
+  "answers":{
+    "A":"Node.js",
+    "B":"Java",
+    "C":"JSON",
+    "D":"Python"
+  },
+  "correctAnswers":["C"],
+  "explanation": ""
+}

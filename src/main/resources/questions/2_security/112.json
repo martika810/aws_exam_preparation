@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Your company has moved to AWS so it can use "scripted infrastructure". You would like to apply version control to your infrastructure, so that you can roll back infrastructure to a previous stable version if needed. You would also like to quickly deploy testing and staging environments in multiple regions. What services should you use to achieve this?",
+  "answers":{
+    "A":"Opsworks, plus a version control system such as GitHub.",
+    "B":"Elastic BeanStalk, plus a version control system such as GitHub.",
+    "C":"CloudWatch, plus a version control system such as GitHub.",
+    "D":"CloudFormation, plus a version control system such as GitHub."
+  },
+  "correctAnswers":["D"],
+  "explanation": ""
+}

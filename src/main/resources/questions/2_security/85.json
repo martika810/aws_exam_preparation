@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"In a CloudFormation template, which of the following is used to include code you have stored in S3?",
+  "answers":{
+    "A":"Resources",
+    "B":"Transforms",
+    "C":"Parameters",
+    "D":"Conditions"
+  },
+  "correctAnswers":["B"],
+  "explanation": ""
+}

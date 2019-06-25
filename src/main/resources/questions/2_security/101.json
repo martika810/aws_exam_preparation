@@ -1,0 +1,13 @@
+
+{
+  "topic":"networking",
+  "question":"Which of the following services allow you to enable encryption after creation?",
+  "answers":{
+    "A":"RDS database",
+    "B":"Elastic File System",
+    "C":"S3 object or bucket",
+    "D":"EBS volume"
+  },
+  "correctAnswers":["C"],
+  "explanation": ""
+}

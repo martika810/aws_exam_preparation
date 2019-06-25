@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"You are deploying an application to a number of EC2 instances using CodeDeploy. What is the name of the file used to specify source files and lifecycle hooks?",
+  "answers":{
+    "A":"buildspec.json",
+    "B":"appspec.yml",
+    "C":"appspec.json",
+    "D":"buildspec.yml"
+  },
+  "correctAnswers":["B"],
+  "explanation": ""
+}

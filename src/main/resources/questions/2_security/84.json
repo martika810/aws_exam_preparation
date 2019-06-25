@@ -1,0 +1,13 @@
+
+{
+  "topic":"networking",
+  "question":"Which of the following services connects an on-premise software appliance (or virtual machine) with cloud based storage?",
+  "answers":{
+    "A":"S3",
+    "B":"Storage Gateway",
+    "C":"Snowball",
+    "D":"Glacier"
+  },
+  "correctAnswers":["B"],
+  "explanation": ""
+}

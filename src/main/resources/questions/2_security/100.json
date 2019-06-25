@@ -1,0 +1,12 @@
+{
+"topic":"networking",
+"question":"Which of the following offers the largest range of internal IP addresses?",
+"answers":{
+"A":"/16",
+"B":"/28",
+"C":"/24",
+"D":"/20"
+},
+"correctAnswers":["A"],
+"explanation": ""
+}

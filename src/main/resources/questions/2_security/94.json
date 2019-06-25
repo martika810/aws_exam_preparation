@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Your S3 backed website is consistently receiving over 400 read requests per second and is steadily rising. What can you do to achieve the best performance as traffic to your website continues to increase?",
+  "answers":{
+    "A":"Add a hex hash suffix to the key name of your S3 objects",
+    "B":"Configure an additional bucket and distribute the files evenly between the two buckets",
+    "C":"Add a hex hash prefix to the key name of your S3 objects",
+    "D":"Configure a CloudFront CDN and use the S3 bucket as the origin"
+  },
+  "correctAnswers":["D"],
+  "explanation": ""
+}

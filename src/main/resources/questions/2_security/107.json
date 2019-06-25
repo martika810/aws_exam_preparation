@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"When editing permissions (policies and ACLs), to whom does the concept of the 'Owner' refer?",
+  "answers":{
+    "A":"The Owner is the IAM user who created the object via the GUI, CLI, or API.",
+    "B":"The Owner is IAM Role used to create the object via the GUI, CLI, or API.",
+    "C":"There is no special concept of 'Owner' in AWS.",
+    "D":"The 'Owner' refers to the identity and email address used to create the AWS account."
+  },
+  "correctAnswers":["D"],
+  "explanation": ""
+}

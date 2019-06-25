@@ -1,0 +1,13 @@
+
+{
+  "topic":"networking",
+  "question":"What is the name of the service that allows users to use their social media account to gain temporary access to the AWS platform?",
+  "answers":{
+    "A":"Active Directory Authentication Services",
+    "B":"Web Confederation Services",
+    "C":"Web Identity Federation",
+    "D":"Facebook Sign In Service"
+  },
+  "correctAnswers":["C"],
+  "explanation": ""
+}

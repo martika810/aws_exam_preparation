@@ -1,0 +1,10 @@
+{
+  "topic":"networking",
+  "question":"When creating an RDS instance, you can select the Availability Zone into which you deploy it.",
+  "answers":{
+    "A":"True",
+    "B":"False"
+  },
+  "correctAnswers":["A"],
+  "explanation": ""
+}

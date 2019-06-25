@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"You are migrating 40TB of data into S3, but you also need to process the data before transferring it to S3. Which service should you use?",
+  "answers":{
+    "A":"Use Snowball Edge to process and transport the data",
+    "B":"Process the data locally and use Snowball Edge to transport the data",
+    "C":"Process the data locally and use Snowball to transport the data",
+    "D":"Use Snowball to transfer the data to S3, then process the data using a Lambda function"
+  },
+  "correctAnswers":["A"],
+  "explanation": ""
+}

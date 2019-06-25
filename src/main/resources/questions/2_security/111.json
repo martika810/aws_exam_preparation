@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"You have created a new AWS account for your company, and you have also configured multi-factor authentication on the root account. You are about to create your new users. What strategy should you consider in order to ensure that there is good security on this account.",
+  "answers":{
+    "A":"Enact a strong password policy: user passwords must be changed every 45 days, with each password containing a combination of capital letters, lower case letters, numbers, and special symbols.",
+    "B":"Require users to only be able to log in using biometric authentication.",
+    "C":"Restrict login to the corporate network only. ",
+    "D":"Give all users the same password so that if they forget their password they can just ask their co-workers."
+  },
+  "correctAnswers":["A"],
+  "explanation": ""
+}

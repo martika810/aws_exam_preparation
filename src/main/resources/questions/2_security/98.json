@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following CloudWatch metrics can you use to determine the percentage of I/O operations delivered of the total IOPS provisioned for an EBS volume?",
+  "answers":{
+    "A":"ThroughputConsumedPercentage",
+    "B":"IOThroughputPercentage",
+    "C":"VolumeConsumedReadWriteOps",
+    "D":"VolumeThroughputPercentage"
+  },
+  "correctAnswers":["D"],
+  "explanation": ""
+}

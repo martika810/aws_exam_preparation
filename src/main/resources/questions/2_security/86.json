@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following tools can be used to determine who provisioned an EC2 instance and what time they made the API call?",
+  "answers":{
+    "A":"CloudWatch",
+    "B":"CloudTrail",
+    "C":"IAM",
+    "D":"CloudFormation"
+  },
+  "correctAnswers":["B"],
+  "explanation": ""
+}

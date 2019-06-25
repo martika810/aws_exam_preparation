@@ -1,0 +1,12 @@
+{
+  "topic":"networking",
+  "question":"Which of the following statements is false regarding AWS root user?",
+  "answers":{
+    "A":"Root account credentials is a combination of email address and password",
+    "B":"It is recommended that you create individual IAM users based on the organizational need",
+    "C":"Root account has complete, unrestricted access to all resources on the account",
+    "D":"Root account permissions can be altered by an admin user on the account"
+  },
+  "correctAnswers":["D"],
+  "explanation": ""
+}
